@@ -1,0 +1,26 @@
+<suite name="SauceDemoSuite">
+    <listeners>
+        <listener class-name="com.saucedemo.MyTestListener" />
+    </listeners>
+
+    <parameter name="url" value="https://www.saucedemo.com/" />
+
+    <test name="PurchaseTest">
+        <classes>
+            <class name="com.saucedemo.PurchaseTest" />
+        </classes>
+    </test>
+
+    <test name="RemoveTest">
+        <classes>
+            <class name="com.saucedemo.RemoveTest" />
+        </classes>
+    </test>
+
+    <test name="LogOutTest">
+        <classes>
+            <class name="com.saucedemo.LogOutTest" />
+        </classes>
+    </test>
+
+</suite>
